@@ -7,6 +7,6 @@ O único framework externo utilizado foi o Swagger do Swashbuckle, para facilita
 
 Os dois endpoints foram implementados no controller único chamado GameController
 
-No texto do desafio fala sobre uma "persistência periódica" dos dados, mas não especifica como (isso pode ser feito de N maneiras), portanto criei apenas um DatabaseBase que é a classe abstrata que implementa a classe de conexão com o banco de dados
+No texto do desafio fala sobre uma "persistência periódica" dos dados, mas não especifica como (isso pode ser feito de N maneiras), portanto criei apenas um DatabaseBase que é a classe abstrata que implementa a classe de conexão com o banco de dados. Esta versão da aplicação consta somente com o database local, em memória
 
 Para testar a aplicação basta baixar o projeto e rodar a solution, o swagger vai abrir automaticamente mostrando os dois endpoints e com uma interface para enviar requisições
